@@ -143,39 +143,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-        #4. return
-# A return é usada dentro de funções para devolver um valor como resultado da execução da função.
-# Sem ela, a função não retorna nada (ou retorna None por padrão).
-# Exemplo:
-
-# python
-# Copiar código
-# def soma(a, b):
-    # return a + b  # Retorna a soma dos dois números
-
-# resultado = soma(3, 5)
-# print(resultado)  # Saída: 8
-# Dica: Use return sempre que precisar de um valor que será usado fora da função.
-# 5. main()
-# O main() é apenas uma convenção em Python para definir o ponto de entrada principal de um programa. Ele é frequentemente usado junto com a verificação especial:
-# python
-# Copiar código
-# if __name__ == "__main__":
-   # main()
-# O que isso faz?
-
-# Quando o arquivo é executado diretamente, o bloco if __name__ == "__main__" será executado.
-# Se o arquivo for importado como um módulo, esse bloco não será executado.
-# Exemplo:
-
-# python
-# Copiar código
-# def main():
-   # print("Executando o programa principal!")
-
-# if __name__ == "__main__":
-   # main()
-# Esse formato é útil em projetos maiores para organizar melhor o código.
+    
